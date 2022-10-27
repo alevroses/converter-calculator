@@ -3,31 +3,46 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Conversor.Vistas.Menuprincipal"
              NavigationPage.HasNavigationBar="False">
-    <StackLayout BackgroundColor="#ffe5b6">
-        <Label Text="Conversor"
+    <StackLayout BackgroundColor="#26223d">
+        <Label Text="Virtual Calculator"
                FontSize="40"
                FontAttributes="Bold"
                Margin="0, 20, 0, 0"
-               HorizontalOptions="Center" />
-        <Frame VerticalOptions="FillAndExpand"
+               HorizontalOptions="Center"
+               TextColor="#adaabf" />
+        <Frame VerticalOptions="CenterAndExpand"
                Margin="20"
                CornerRadius="20"
-               HasShadow="False">
+               HasShadow="False"
+               BackgroundColor="#191626">
             <StackLayout VerticalOptions="Center"
                          Spacing="20">
-                <Image Source="cinta.png" />
-                <Label Text="(cm) a (m)"
+                <Label Text="Addition"
                        FontAttributes="Bold"
                        FontSize="40"
-                       HorizontalOptions="Center" />
-                <Button Text="Iniciar"
+                       HorizontalOptions="Center"
+                       TextColor="White" />
+                <Button Text="Start"
                         TextTransform="None"
-                        Background="#ffdc7a"
+                        Background="#803fde"
                         CornerRadius="10"
                         FontSize="Medium"
-                        FontAttributes="Bold" 
+                        FontAttributes="Bold"
                         x:Name="btniniciar"
-                        Clicked="btniniciar_Clicked"/>
+                        Clicked="btniniciar_Clicked" />
+            </StackLayout>
+        </Frame>
+        <Frame VerticalOptions="CenterAndExpand"
+               Margin="20"
+               CornerRadius="20"
+               HasShadow="False"
+               BackgroundColor="#191626">
+            <StackLayout>
+                <Label Text="Subraction"
+                       FontAttributes="Bold"
+                       FontSize="40"
+                       HorizontalOptions="Center"
+                       TextColor="White"/>
             </StackLayout>
         </Frame>
     </StackLayout>
