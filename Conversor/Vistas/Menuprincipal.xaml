@@ -43,6 +43,51 @@
                        FontSize="40"
                        HorizontalOptions="Center"
                        TextColor="White"/>
+                <Button Text="Start"
+                        TextTransform="None"
+                        Background="#803fde"
+                        CornerRadius="10"
+                        FontSize="Medium"
+                        FontAttributes="Bold"
+                        />
+            </StackLayout>
+        </Frame>
+        <Frame VerticalOptions="CenterAndExpand"
+               Margin="20"
+               CornerRadius="20"
+               HasShadow="False"
+               BackgroundColor="#191626">
+            <StackLayout>
+                <Label Text="Multiplication"
+                       FontAttributes="Bold"
+                       FontSize="40"
+                       HorizontalOptions="Center"
+                       TextColor="White"/>
+                <Button Text="Start"
+                        TextTransform="None"
+                        Background="#803fde"
+                        CornerRadius="10"
+                        FontSize="Medium"
+                        FontAttributes="Bold"/>
+            </StackLayout>
+        </Frame>
+        <Frame VerticalOptions="CenterAndExpand"
+               Margin="20"
+               CornerRadius="20"
+               HasShadow="False"
+               BackgroundColor="#191626">
+            <StackLayout>
+                <Label Text="Division"
+                       FontAttributes="Bold"
+                       FontSize="40"
+                       HorizontalOptions="Center"
+                       TextColor="White"/>
+                <Button Text="Start"
+                        TextTransform="None"
+                        Background="#803fde"
+                        CornerRadius="10"
+                        FontSize="Medium"
+                        FontAttributes="Bold"/>
             </StackLayout>
         </Frame>
     </StackLayout>
