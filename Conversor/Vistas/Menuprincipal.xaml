@@ -103,7 +103,9 @@
                             Background="#803fde"
                             CornerRadius="10"
                             FontSize="Medium"
-                            FontAttributes="Bold" />
+                            FontAttributes="Bold" 
+                            x:Name="btniniciardivision"
+                            Clicked="btniniciardivision_Clicked"/>
                 </StackLayout>
             </Frame>
         </Grid>

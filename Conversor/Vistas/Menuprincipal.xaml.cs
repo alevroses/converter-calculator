@@ -31,5 +31,10 @@ namespace Conversor.Vistas
         {
             Navigation.PushAsync(new Multiplication());
         }
+
+        private void btniniciardivision_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Division());
+        }
     }
 }

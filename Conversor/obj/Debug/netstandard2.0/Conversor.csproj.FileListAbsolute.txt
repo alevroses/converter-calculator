@@ -16,3 +16,4 @@ C:\Users\aleVR\source\repos\Conversor\Conversor\obj\Debug\netstandard2.0\ref\Con
 C:\Users\aleVR\source\repos\Conversor\Conversor\obj\Debug\netstandard2.0\Vistas\Convertir.xaml.g.cs
 C:\Users\aleVR\source\repos\Conversor\Conversor\obj\Debug\netstandard2.0\Vistas\Subtraction.xaml.g.cs
 C:\Users\aleVR\source\repos\Conversor\Conversor\obj\Debug\netstandard2.0\Vistas\Multiplication.xaml.g.cs
+C:\Users\aleVR\source\repos\Conversor\Conversor\obj\Debug\netstandard2.0\Vistas\Division.xaml.g.cs
