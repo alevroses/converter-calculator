@@ -658,3 +658,4 @@ C:\Users\aleVR\source\repos\Conversor\Conversor.Android\obj\Debug\120\android\sr
 C:\Users\aleVR\source\repos\Conversor\Conversor.Android\obj\Debug\120\res\drawable\addition.png
 C:\Users\aleVR\source\repos\Conversor\Conversor.Android\obj\Debug\120\res\drawable\maths.png
 C:\Users\aleVR\source\repos\Conversor\Conversor.Android\obj\Debug\120\res\drawable\calculator.png
+C:\Users\aleVR\source\repos\Conversor\Conversor.Android\obj\Debug\120\res\drawable\subtraction.png
