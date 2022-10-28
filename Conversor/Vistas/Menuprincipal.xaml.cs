@@ -21,5 +21,10 @@ namespace Conversor.Vistas
         {
             Navigation.PushAsync(new Convertir());
         }
+
+        private void btniniciarresta_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Subtraction());
+        }
     }
 }
