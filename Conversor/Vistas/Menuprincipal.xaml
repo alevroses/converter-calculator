@@ -5,90 +5,103 @@
              NavigationPage.HasNavigationBar="False">
     <StackLayout BackgroundColor="#26223d">
         <Label Text="Virtual Calculator"
-               FontSize="40"
-               FontAttributes="Bold"
-               Margin="0, 20, 0, 0"
-               HorizontalOptions="Center"
-               TextColor="#adaabf" />
-        <Frame VerticalOptions="CenterAndExpand"
+            FontSize="40"
+            FontAttributes="Bold"
+            Margin="0, 20, 0, 0"
+            HorizontalOptions="Center"
+            TextColor="#adaabf"/>
+        <Image Source="calculator.png"
                Margin="20"
-               CornerRadius="20"
-               HasShadow="False"
-               BackgroundColor="#191626">
-            <StackLayout VerticalOptions="Center"
-                         Spacing="20">
-                <Label Text="Addition"
-                       FontAttributes="Bold"
-                       FontSize="40"
-                       HorizontalOptions="Center"
-                       TextColor="White" />
-                <Button Text="Start"
-                        TextTransform="None"
-                        Background="#803fde"
-                        CornerRadius="10"
-                        FontSize="Medium"
-                        FontAttributes="Bold"
-                        x:Name="btniniciar"
-                        Clicked="btniniciar_Clicked" />
-            </StackLayout>
-        </Frame>
-        <Frame VerticalOptions="CenterAndExpand"
-               Margin="20"
-               CornerRadius="20"
-               HasShadow="False"
-               BackgroundColor="#191626">
-            <StackLayout>
-                <Label Text="Subraction"
-                       FontAttributes="Bold"
-                       FontSize="40"
-                       HorizontalOptions="Center"
-                       TextColor="White"/>
-                <Button Text="Start"
-                        TextTransform="None"
-                        Background="#803fde"
-                        CornerRadius="10"
-                        FontSize="Medium"
-                        FontAttributes="Bold"
-                        />
-            </StackLayout>
-        </Frame>
-        <Frame VerticalOptions="CenterAndExpand"
-               Margin="20"
-               CornerRadius="20"
-               HasShadow="False"
-               BackgroundColor="#191626">
-            <StackLayout>
-                <Label Text="Multiplication"
-                       FontAttributes="Bold"
-                       FontSize="40"
-                       HorizontalOptions="Center"
-                       TextColor="White"/>
-                <Button Text="Start"
-                        TextTransform="None"
-                        Background="#803fde"
-                        CornerRadius="10"
-                        FontSize="Medium"
-                        FontAttributes="Bold"/>
-            </StackLayout>
-        </Frame>
-        <Frame VerticalOptions="CenterAndExpand"
-               Margin="20"
-               CornerRadius="20"
-               HasShadow="False"
-               BackgroundColor="#191626">
-            <StackLayout>
-                <Label Text="Division"
-                       FontAttributes="Bold"
-                       FontSize="40"
-                       HorizontalOptions="Center"
-                       TextColor="White"/>
-                <Button Text="Start"
-                        TextTransform="None"
-                        Background="#803fde"
-                        CornerRadius="10"
-                        FontSize="Medium"
-                        FontAttributes="Bold"/>
-            </StackLayout>
-        </Frame>
+               HeightRequest="300" />
+        <Grid RowDefinitions="*, *"
+              ColumnDefinitions="*, *">
+            <Frame VerticalOptions="CenterAndExpand"
+                   Margin="10, 5, 5, 5"
+                   CornerRadius="20"
+                   HasShadow="False"
+                   BackgroundColor="#191626"
+                   Grid.Row="0"
+                   Grid.Column="0">
+                <StackLayout VerticalOptions="Center"
+                             Spacing="20">
+                    <Label Text="Addition"
+                           FontAttributes="Bold"
+                           FontSize="28"
+                           HorizontalOptions="Center"
+                           TextColor="White" />
+                    <Button Text="Start"
+                            TextTransform="None"
+                            Background="#803fde"
+                            CornerRadius="10"
+                            FontSize="Medium"
+                            FontAttributes="Bold"
+                            x:Name="btniniciar"
+                            Clicked="btniniciar_Clicked" />
+                </StackLayout>
+            </Frame>
+            <Frame VerticalOptions="CenterAndExpand"
+                   Margin="5, 5, 10, 5"
+                   CornerRadius="20"
+                   HasShadow="False"
+                   BackgroundColor="#191626"
+                   Grid.Row="0"
+                   Grid.Column="1">
+                <StackLayout>
+                    <Label Text="Subtraction"
+                           FontAttributes="Bold"
+                           FontSize="28"
+                           HorizontalOptions="Center"
+                           TextColor="White" />
+                    <Button Text="Start"
+                            TextTransform="None"
+                            Background="#803fde"
+                            CornerRadius="10"
+                            FontSize="Medium"
+                            FontAttributes="Bold" />
+                </StackLayout>
+            </Frame>
+            <Frame VerticalOptions="CenterAndExpand"
+                   Margin="10, 5, 5, 5"
+                   CornerRadius="20"
+                   HasShadow="False"
+                   BackgroundColor="#191626"
+                   Grid.Row="1"
+                   Grid.Column="0">
+                <StackLayout>
+                    <Label Text="Multiplication"
+                           FontAttributes="Bold"
+                           FontSize="28"
+                           HorizontalOptions="Center"
+                           TextColor="White" />
+                    <Button Text="Start"
+                            TextTransform="None"
+                            Background="#803fde"
+                            CornerRadius="10"
+                            FontSize="Medium"
+                            FontAttributes="Bold" />
+                </StackLayout>
+            </Frame>
+            <Frame VerticalOptions="CenterAndExpand"
+                   Margin="5, 5, 10, 5"
+                   CornerRadius="20"
+                   HasShadow="False"
+                   BackgroundColor="#191626"
+                   Grid.Row="1"
+                   Grid.Column="1">
+                <StackLayout>
+                    <Label Text="Division"
+                           FontAttributes="Bold"
+                           FontSize="28"
+                           HorizontalOptions="Center"
+                           TextColor="White" />
+                    <Button Text="Start"
+                            TextTransform="None"
+                            Background="#803fde"
+                            CornerRadius="10"
+                            FontSize="Medium"
+                            FontAttributes="Bold" />
+                </StackLayout>
+            </Frame>
+        </Grid>
     </StackLayout>
 </ContentPage>

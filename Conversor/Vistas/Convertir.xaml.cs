@@ -12,8 +12,9 @@ namespace Conversor.Vistas
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Convertir : ContentPage
     {
-        double cm;
-        double m;
+        double n1;
+        double n2;
+        double result;
 
         public Convertir()
         {
@@ -22,14 +23,15 @@ namespace Conversor.Vistas
 
         private void Calcular()
         {
-            cm = Convert.ToDouble(txtcm.Text);
-            m = cm / 100;
-            lblresultado.Text = m.ToString() + " m";
+            n1 = Convert.ToDouble(txtn1.Text);
+            n2 = Convert.ToDouble(txtn2.Text);
+            result = n1 + n2;
+            lblresultado.Text = result.ToString();
         }
 
         private void Validar()
         {
-            if (!string.IsNullOrEmpty(txtcm.Text))
+            if (!string.IsNullOrEmpty(txtn1.Text) && !string.IsNullOrEmpty(txtn2.Text))
             {
                 Calcular();
             }
