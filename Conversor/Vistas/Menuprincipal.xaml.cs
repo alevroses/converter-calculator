@@ -26,5 +26,10 @@ namespace Conversor.Vistas
         {
             Navigation.PushAsync(new Subtraction());
         }
+
+        private void btniniciarmultiplication_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Multiplication());
+        }
     }
 }

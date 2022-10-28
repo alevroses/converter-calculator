@@ -11,7 +11,7 @@ namespace Conversor
         {
             InitializeComponent();
 
-            //MainPage = new NavigationPage(new Menuprincipal());
+            //MainPage = new Multiplication();
             MainPage = new NavigationPage(new Menuprincipal());
         }
 

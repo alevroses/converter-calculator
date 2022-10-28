@@ -80,7 +80,9 @@
                             Background="#803fde"
                             CornerRadius="10"
                             FontSize="Medium"
-                            FontAttributes="Bold" />
+                            FontAttributes="Bold" 
+                            x:Name="btniniciarmultiplication"
+                            Clicked="btniniciarmultiplication_Clicked"/>
                 </StackLayout>
             </Frame>
             <Frame VerticalOptions="CenterAndExpand"
